@@ -25,8 +25,6 @@ Route::get('/listings/{listing}', [ListingController::class, 'show']);
 
 
 
-
-
 // Common Resource Routes (naming conventions):
 // index - Show all listings
 // show - Show single listing
