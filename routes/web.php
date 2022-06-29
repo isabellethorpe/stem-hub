@@ -25,7 +25,7 @@ Route::get('/', function () {
 });
 
 // Single listing
-Route::get('/listings/{$id}', function($id) {
+Route::get('/listings/{id}', function ($id) {
     return view('listing', [
         'listing' => Listing::find($id)
     ]);
@@ -53,5 +53,3 @@ Route::get('/listings/{$id}', function($id) {
 //     return $request->name . ' ' . $request->city;
 
 // });
-
-
