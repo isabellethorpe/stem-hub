@@ -21,7 +21,7 @@
             },
         };
     </script>
-    <title>LaraGigs | Find Laravel Jobs & Projects</title>
+    <title>STEM hub | Find STEM Jobs & Projects</title>
 </head>
 
 <body class="mb-48">
