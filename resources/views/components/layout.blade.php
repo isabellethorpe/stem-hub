@@ -39,6 +39,7 @@
     </nav>
     {{-- VIEW OUTPUT --}}
     <main>
+        <!-- added slot so layout can be "slotted" in, use <x-layout> to add layout in another view-->
         {{$slot}}
     </main>
     <footer
