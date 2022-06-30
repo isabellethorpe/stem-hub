@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Pagination\Paginator;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -26,5 +27,10 @@ class AppServiceProvider extends ServiceProvider
     {
         // Allowing the mass assigment therefore no longer require the fillable, found commented out in Listing.php
         Model::unguard();
+
+        // can style pagination from vendor list here
+        // to do this pick from a drop down list that you can find
+        // entering php artisan vendor:publish in terminal
+        Paginator::useBootstrapFive();
     }
 }
