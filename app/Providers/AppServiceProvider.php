@@ -31,6 +31,6 @@ class AppServiceProvider extends ServiceProvider
         // can style pagination from vendor list here
         // to do this pick from a drop down list that you can find
         // entering php artisan vendor:publish in terminal
-        Paginator::useBootstrapFive();
+        //Paginator::useBootstrapFive();
     }
 }
